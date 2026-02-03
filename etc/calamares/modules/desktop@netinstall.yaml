@@ -1,13 +1,13 @@
-- name: "No Desktop"
-  description: "No Desktop Environment - for those who prefer a minimal setup."
-  hidden: false
-  selected: false
-  expanded: false
-  critical: true
+# - name: "No Desktop"
+#   description: "No Desktop Environment - for those who prefer a minimal setup."
+#   hidden: false
+#   selected: false
+#   expanded: false
+#   critical: true
 - name: Plasma
   description: "Simple by default, powerful when needed."
   hidden: false
-  selected: false
+  selected: true
   expanded: false
   critical: true
   packages:
