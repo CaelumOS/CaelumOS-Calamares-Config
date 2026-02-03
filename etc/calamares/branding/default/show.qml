@@ -32,8 +32,8 @@ Presentation
     Slide {
         Image {
             id: background1
-            source: "ayakaOS-Logo-512.png"
-            width: 512; height: 512
+            source: "ayakaOS-Logo-256.png"
+            width: 256; height: 256
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
