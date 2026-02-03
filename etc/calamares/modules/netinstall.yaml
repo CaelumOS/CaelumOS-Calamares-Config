@@ -311,7 +311,7 @@
     - totem
     - xdg-user-dirs-gtk
 - name: "MATE"
-  description: "MATE - the continuation of GNOME 2"
+  description: "The continuation of GNOME 2"
   hidden: false
   selected: false
   expanded: false
