@@ -64,7 +64,7 @@ echo '' >> /etc/pacman.conf
 echo '[ayakaOS]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
 echo 'Server = https://raw.githubusercontent.com/ayakaOS/ayakaOS-repo/main' >> /etc/pacman.conf
-echo 'Server = file:///var/ayakaOS-repo' >> /etc/pacman.conf
+#echo 'Server = file:///var/ayakaOS-repo' >> /etc/pacman.conf
 
 ##fcitx5
 echo "GTK_IM_MODULE=fcitx" >> /etc/environment
