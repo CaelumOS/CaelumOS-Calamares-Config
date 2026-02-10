@@ -5,8 +5,8 @@
   expanded: true
   critical: false
   subgroups:
-      - name: " Kernel"
-        name[zh_CN]: " 内核"
+      #- name: " Kernel"
+      - name: " 内核"
         description: ""
         hidden: false
         selected: false
@@ -62,8 +62,8 @@
               packages:
                 - linux-hardened
                 - linux-hardened-headers
-      - name: " Network"
-        name[zh_CN]: " 网络"
+      #- name: " Network"
+      - name: " 网络"
         description: "Network apps drivers and tools"
         selected: true
         packages:
@@ -79,25 +79,25 @@
           - wpa_supplicant
           - wireless-regdb
           - xl2tpd
-      - name: "󱨑 Firewall"
-        name[zh_CN]: "󱨑 防火墙"
-        description: "Firewall support"
-        description[zh_CN]: "防火墙支持"
+      #- name: "󱨑 Firewall"
+      - name: "󱨑 防火墙"
+        #description: "Firewall support"
+        description: "防火墙支持"
         selected: true
         packages:
           - ufw
-      - name: "󰂯 Bluetooth"
-        name[zh_CN]: "󰂯 蓝牙"
-        description: "Bluetooth support"
-        description[zh_CN]: "蓝牙支持"
+      #- name: "󰂯 Bluetooth"
+      - name: "󰂯 蓝牙"
+        #description: "Bluetooth support"
+        description: "蓝牙支持"
         selected: true
         packages:
           - bluez
           - bluez-hid2hci
           - bluez-libs
           - bluez-utils
-      - name: "󰏓 Packages Management"
-        name[zh_CN]: "󰏓 包管理"
+      #- name: "󰏓 Packages Management"
+      - name: "󰏓 包管理"
         description: "Packages tools"
         selected: true
         packages:
@@ -127,8 +127,8 @@
           - vlc-plugins-all
           - xdg-user-dirs
           - xdg-utils
-      - name: " File System"
-        name[zh_CN]: " 文件系统"
+      #- name: " File System"
+      - name: " 文件系统"
         description: "File system tools and apps"
         selected: true
         packages:
@@ -140,16 +140,19 @@
           - smartmontools
           - unrar
           - unzip
-      - name: " Fonts"
-        name[zh_CN]: " 字体"
+      #- name: " Fonts"
+      - name: " 字体"
         description: "ayakaOS font selection"
         selected: true
         packages:
           - noto-fonts-emoji
-          #- ttf-ayakaos
+          - ttf-ayakaos
+          - ttf-lxgw-wenkai
+          - ttf-lxgw-wenkai-mono
+          - ttf-lxgw-wenkai-tc
           - wqy-microhei
-      - name: " Audio"
-        name[zh_CN]: " 音频"
+      #- name: " Audio"
+      - name: " 音频"
         description: "Audio handling tools apps and libs"
         selected: true
         packages:
@@ -161,8 +164,8 @@
           - wireplumber
           - pipewire-alsa
           - rtkit
-      - name: " Hardware"
-        name[zh_CN]: " 硬件"
+      #- name: " Hardware"
+      - name: " 硬件"
         description: "Hardware support libs and firmware"
         selected: true
         packages:
@@ -175,10 +178,10 @@
           - mtools
           - sg3_utils
           - sof-firmware
-      - name: "󰐥 Power"
-        name[zh_CN]: "󰐥 电源"
-        description: "Powermanagement support"
-        description[zh_CN]: "电源管理支持"
+      #- name: "󰐥 Power"
+      - name: "󰐥 电源"
+        #description: "Powermanagement support"
+        description: "电源管理支持"
         selected: true
         packages:
           - cpupower
@@ -222,8 +225,8 @@
   packages:
     - amd-ucode
     - intel-ucode
-- name: " Printing Support"
-  name[zh_CN]: " 打印支持"
+#- name: " Printing Support"
+- name: " 打印支持"
   description: "Support for printing (Cups)"
   hidden: false
   selected: false
@@ -255,10 +258,10 @@
     - cups
     - cups-filters
     - cups-pdf
-- name: " NVIDIA Drivers"
-  name[zh_CN]: " NVIDIA 驱动"
-  description: "NVIDIA GPU drivers (So NVIDIA F**K YOU!)"
-  description[zh_CN]: "N卡驱动 (So NVIDIA F**K YOU!)"
+#- name: " NVIDIA Drivers"
+- name: " NVIDIA 驱动"
+  #description: "NVIDIA GPU drivers (So NVIDIA F**K YOU!)"
+  description: "N卡驱动 (So NVIDIA F**K YOU!)"
   hidden: false
   selected: false
   critical: true
@@ -270,8 +273,8 @@
     - nvidia-open-dkms
     - nvidia-utils
     - opencl-nvidia-580xx
-- name: " Accessibility Tools"
-  name[zh_CN]: " 无障碍工具"
+#- name: " Accessibility Tools"
+- name: " 无障碍工具"
   description: "Screen reader and mouse tweaks (impaired vision)"
   hidden: false
   selected: false

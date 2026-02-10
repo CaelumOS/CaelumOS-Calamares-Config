@@ -1,5 +1,5 @@
-- name: "󰣇 ayakaOS Apps"
-  name[zh_CN]: "󰣇 ayakaOS 软件"
+#- name: "󰣇 ayakaOS Apps"
+- name: "󰣇 ayakaOS 软件"
   description: ""
   hidden: false
   selected: true
@@ -9,9 +9,9 @@
     - ayakaos-sound-theme
     - bibata-cursor-theme-ayakaos
     - colloid-icon-theme-ayakaos
-    - ttf-ayakaos
-- name: " Input Method"
-  name[zh_CN]: " 输入法"
+    - lingmo-gtk-themes
+#- name: " Input Method"
+- name: " 输入法"
   description: "Fcitx 5"
   hidden: false
   selected: true
@@ -22,8 +22,8 @@
    - fcitx5-chinese-addons
    - fcitx5-pinyin-moegirl
    - fcitx5-pinyin-zhwiki
-- name: "󰖟 Web Browser"
-  name[zh_CN]: "󰖟 浏览器"
+#- name: "󰖟 Web Browser"
+- name: "󰖟 浏览器"
   description: ""
   hidden: false
   selected: true
@@ -66,7 +66,8 @@
         critical: false
         packages:
           - microsoft-edge-stable-bin
-- name: " Video & Audio"
+#- name: " Video & Audio"
+- name: " 影音"
   description: ""
   hidden: false
   selected: true
@@ -92,7 +93,8 @@
         packages:
            - zsh
            - zsh-completions
-- name: " Other Tools"
+#- name: " Other Tools"
+- name: " 其他工具"
   description: ""
   hidden: false
   selected: true

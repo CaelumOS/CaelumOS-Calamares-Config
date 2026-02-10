@@ -6,7 +6,7 @@
 #   critical: true
 - name: " KDE Plasma"
   description: "Simple by default, powerful when needed."
-  description[zh_CN]: "默认状态简洁易用，按需定制功能强大。"
+  #description: "默认状态简洁易用，按需定制功能强大。"
   hidden: false
   selected: true
   expanded: false
@@ -39,7 +39,6 @@
   expanded: false
   critical: true
   packages:
-    - adw-gtk-theme
     - gdm
     - gnome
     - gnome-appfolders-manager
@@ -238,37 +237,50 @@
     - xdg-utils
     - xscreensaver
     - xsettingsd
-- name: " LXDE"
-  description: "The Lightweight Desktop Environment."
+#- name: " LXDE"
+  #description: "The Lightweight Desktop Environment."
+  #hidden: false
+  #selected: false
+  #expanded: false
+  #critical: true
+  #packages:
+    #- celluloid
+    #- cinnamon-translations
+    #- file-roller
+    #- galculator
+    #- gedit
+    #- gnome-screenshot
+    #- gnome-terminal
+    #- gpicview
+    #- gvfs
+    #- gvfs-afc
+    #- gvfs-gphoto2
+    #- gvfs-mtp
+    #- gvfs-nfs
+    #- gvfs-smb
+    #- kwin
+    #- kwin-x11
+    #- lxappearance
+    #- lxde
+    #- notification-daemon
+    #- nemo
+    #- nemo-fileroller
+    #- network-manager-applet
+    #- qt5ct
+    #- qt6ct
+    #- sddm
+    #- systemsettings
+    #- xdg-user-dirs-gtk
+- name: " DDE"
+  description: ""
   hidden: false
   selected: false
   expanded: false
   critical: true
   packages:
-    - celluloid
-    - cinnamon-translations
-    - file-roller
-    - galculator
-    - gedit
-    - gnome-screenshot
-    - gnome-terminal
-    - gpicview
-    - gvfs
-    - gvfs-afc
-    - gvfs-gphoto2
-    - gvfs-mtp
-    - gvfs-nfs
-    - gvfs-smb
-    - kwin
-    - kwin-x11
-    - lxappearance
-    - lxde
-    - notification-daemon
-    - nemo
-    - nemo-fileroller
-    - network-manager-applet
-    - qt5ct
-    - qt6ct
+    - deepin
+    - deepin-extra
+    - deepin-kwin
     - sddm
+    - sddm-kcm
     - systemsettings
-    - xdg-user-dirs-gtk
