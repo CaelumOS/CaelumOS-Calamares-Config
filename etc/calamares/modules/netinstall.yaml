@@ -206,6 +206,8 @@
           - kvantum-qt5
           - lsd
           - meld
+          - micro
+          - msedit
           - nano
           - nano-syntax-highlighting
           - openssh
