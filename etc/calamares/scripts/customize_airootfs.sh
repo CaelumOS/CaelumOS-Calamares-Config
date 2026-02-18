@@ -22,8 +22,16 @@ ln -s /usr/share/pixmaps/logo-text-dark.svg /usr/share/pixmaps/archlinux-logo-te
 ## -------------------------------------------------------------- ##
 
 ## /etc/motd
-cat > "/etc/motd" <<- _EOF_
-_EOF_
+#cat > "/etc/motd" <<- _EOF_
+#_EOF_
+echo 'ayakaOS | Do simple things.' > /etc/motd
+echo '' >> /etc/motd
+echo ' Welcome to ayakaOS!' >> /etc/motd
+echo '' >> /etc/motd
+echo ' - URL:    https://ayakaOS.asia' >> /etc/motd
+echo ' - Docs:   https://ayakaOS.de5.net' >> /etc/motd
+echo ' - GitHub: https://github.com/ayakaOS/ayakaOS' >> /etc/motd
+echo '' >> /etc/motd
 
 ## -------------------------------------------------------------- ##
 
@@ -64,10 +72,10 @@ echo '' >> /etc/pacman.conf
 echo '[ayakaOS]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
 echo 'Server = https://raw.githubusercontent.com/ayakaOS/ayakaOS-repo/main' >> /etc/pacman.conf
-#echo 'Server = file:///var/ayakaOS-repo' >> /etc/pacman.conf
+#echo 'Server = file:///var/ayakaOS-repo' >> /etc/pacman.conf # 本地源
 
 ##fcitx5
-echo "GTK_IM_MODULE=fcitx" >> /etc/environment
-echo "QT_IM_MODULE=fcitx" >> /etc/environment
-echo "XMODIFIERS=@im=fcitx" >> /etc/environment
-echo "SDL_IM_MODULE=fcitx" >> /etc/environment
+echo "GTK_IM_MODULE=fcitx5" >> /etc/environment
+echo "QT_IM_MODULE=fcitx5" >> /etc/environment
+echo "XMODIFIERS=@im=fcitx5" >> /etc/environment
+echo "SDL_IM_MODULE=fcitx5" >> /etc/environment
