@@ -191,6 +191,7 @@
         description: "General tools and applications"
         selected: true
         packages:
+          - ayakaos-release
           - btop
           - duf
           - fastfetch

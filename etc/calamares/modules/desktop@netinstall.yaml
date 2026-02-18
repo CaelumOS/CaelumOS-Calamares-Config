@@ -14,7 +14,6 @@
   packages:
     - ark
     - bluedevil
-    - darkly
     - dolphin
     - ffmpegthumbs
     - filelight
