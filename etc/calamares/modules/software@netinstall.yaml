@@ -7,8 +7,8 @@
   critical: false
   packages:
     - ayakaos-sound-theme
-    - bibata-cursor-theme-ayakaos
-    - colloid-icon-theme-ayakaos
+    - bibata-cursor-theme-caelumos
+    - colloid-icon-theme-git
     - darkly-bin
     - lingmo-gtk-themes
 #- name: " Input Method"

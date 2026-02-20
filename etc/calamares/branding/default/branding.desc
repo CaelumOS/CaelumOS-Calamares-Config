@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         ayakaOS
-    shortProductName:    ayakaOS
+    productName:         CaelumOS
+    shortProductName:    CaelumOS
     version:             26.02
     shortVersion:        26
-    versionedName:       ayakaOS 26.02
-    shortVersionedName:  ayakaOS 26
-    bootloaderEntryName: ayakaOS
+    versionedName:       CaelumOS 26.02
+    shortVersionedName:  CaelumOS 26
+    bootloaderEntryName: CaelumOS
 
 # These images are loaded from the branding module directory.
 #

@@ -89,7 +89,7 @@
         selected: true
         packages:
           - noto-fonts-emoji
-          - ttf-ayakaos
+          - ttf-caelumos
           - ttf-lxgw-wenkai
           - ttf-lxgw-wenkai-mono
           - ttf-lxgw-wenkai-tc

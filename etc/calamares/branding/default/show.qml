@@ -40,9 +40,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background1.horizontalCenter
             anchors.top: background1.bottom
-            text: qsTr("ayakaOS | Do simple things.<br/>"+
+            text: qsTr("CaelumOS | Do simple things.<br/>"+
                   "<br/>"+
-                  "Welcome to ayakaOS.<br/>"+
+                  "Welcome to CaelumOS.<br/>"+
                   "The rest of the installation is automated and should complete in a few minutes.")
             wrapMode: Text.WordWrap
             width: 750
