@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install ayakaOS
-Name[zh_CN]=安装 ayakaOS
+Name=Install CaelumOS
+Name[zh_CN]=安装 CaelumOS
 GenericName=Live Installer
-Comment=Install ayakaOS with Calamares.
-Comment[zh_CN]=使用 Calamares 安装 ayakaOS。
+Comment=Install CaelumOS with Calamares.
+Comment[zh_CN]=使用 Calamares 安装 CaelumOS。
 Exec=calamares_polkit
 Icon=calamares
 Terminal=false
