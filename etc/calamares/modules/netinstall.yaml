@@ -1,12 +1,12 @@
-- name: " Base-devel + Common packages"
+- name: "  Base-devel + Common packages"
   description: "Recommended. Don't change unless you know what you're doing (generic)."
   hidden: false
   selected: true
   expanded: true
   critical: false
   subgroups:
-      #- name: " Network"
-      - name: " 网络"
+      #- name: "  Network"
+      - name: "  网络"
         description: "Network apps drivers and tools"
         selected: true
         packages:
@@ -22,15 +22,15 @@
           - wpa_supplicant
           - wireless-regdb
           - xl2tpd
-      #- name: "󱨑 Firewall"
-      - name: "󱨑 防火墙"
+      #- name: "󱨑  Firewall"
+      - name: "󱨑  防火墙"
         #description: "Firewall support"
         description: "防火墙支持"
         selected: true
         packages:
           - ufw
-      #- name: "󰂯 Bluetooth"
-      - name: "󰂯 蓝牙"
+      #- name: "󰂯  Bluetooth"
+      - name: "󰂯  蓝牙"
         #description: "Bluetooth support"
         description: "蓝牙支持"
         selected: true
@@ -39,8 +39,8 @@
           - bluez-hid2hci
           - bluez-libs
           - bluez-utils
-      #- name: "󰏓 Packages Management"
-      - name: "󰏓 包管理"
+      #- name: "󰏓  Packages Management"
+      - name: "󰏓  包管理"
         description: "Packages tools"
         selected: true
         packages:
@@ -51,7 +51,7 @@
           - pkgfile
           - rebuild-detector
           - yay
-      - name: " Desktop Integration"
+      - name: "  Desktop Integration"
         description: "Useful helper tools and libs for desktop usage"
         selected: true
         packages:
@@ -70,8 +70,8 @@
           - vlc-plugins-all
           - xdg-user-dirs
           - xdg-utils
-      #- name: " File System"
-      - name: " 文件系统"
+      #- name: "  File System"
+      - name: "  文件系统"
         description: "File system tools and apps"
         selected: true
         packages:
@@ -83,19 +83,16 @@
           - smartmontools
           - unrar
           - unzip
-      #- name: " Fonts"
-      - name: " 字体"
-        description: "ayakaOS font selection"
+      #- name: "  Fonts"
+      - name: "  字体"
+        description: "CaelumOS font selection"
         selected: true
         packages:
           - noto-fonts-emoji
           - ttf-caelumos
-          - ttf-lxgw-wenkai
-          - ttf-lxgw-wenkai-mono
-          - ttf-lxgw-wenkai-tc
           - wqy-microhei
-      #- name: " Audio"
-      - name: " 音频"
+      #- name: "  Audio"
+      - name: "  音频"
         description: "Audio handling tools apps and libs"
         selected: true
         packages:
@@ -107,8 +104,8 @@
           - wireplumber
           - pipewire-alsa
           - rtkit
-      #- name: " Hardware"
-      - name: " 硬件"
+      #- name: "  Hardware"
+      - name: "  硬件"
         description: "Hardware support libs and firmware"
         selected: true
         packages:
@@ -121,8 +118,8 @@
           - mtools
           - sg3_utils
           - sof-firmware
-      #- name: "󰐥 Power"
-      - name: "󰐥 电源"
+      #- name: "󰐥  Power"
+      - name: "󰐥  电源"
         #description: "Powermanagement support"
         description: "电源管理支持"
         selected: true
@@ -130,7 +127,7 @@
           - cpupower
           - power-profiles-daemon
           - upower
-      - name: " Some applications selection"
+      - name: "  Some applications selection"
         description: "General tools and applications"
         selected: true
         packages:
@@ -163,7 +160,7 @@
           - vi
           - vim
           - wget
-- name: " CPU specific Microcode update packages"
+- name: "  CPU specific Microcode update packages"
   description: "Microcode update image for AMD and Intel CPU"
   hidden: false
   selected: true
@@ -171,8 +168,8 @@
   packages:
     - amd-ucode
     - intel-ucode
-#- name: " Printing Support"
-- name: " 打印支持"
+#- name: "  Printing Support"
+- name: "  打印支持"
   description: "Support for printing (Cups)"
   hidden: false
   selected: false
@@ -192,7 +189,7 @@
     - gutenprint
     - splix
     - system-config-printer
-- name: " Support for HP Printer/Scanner"
+- name: "  Support for HP Printer/Scanner"
   description: "Extra Packages for HP Printer/Scanner"
   hidden: false
   selected: false
@@ -204,8 +201,8 @@
     - cups
     - cups-filters
     - cups-pdf
-#- name: " NVIDIA Drivers"
-- name: " NVIDIA 驱动"
+#- name: "  NVIDIA Drivers"
+- name: "  NVIDIA 驱动"
   #description: "NVIDIA GPU drivers (So NVIDIA F**K YOU!)"
   description: "N卡驱动 (So NVIDIA F**K YOU!)"
   hidden: false
@@ -219,8 +216,8 @@
     - nvidia-open-dkms
     - nvidia-utils
     - opencl-nvidia-580xx
-#- name: " Accessibility Tools"
-- name: " 无障碍工具"
+#- name: "  Accessibility Tools"
+- name: "  无障碍工具"
   description: "Screen reader and mouse tweaks (impaired vision)"
   hidden: false
   selected: false

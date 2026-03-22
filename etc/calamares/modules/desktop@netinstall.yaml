@@ -4,7 +4,7 @@
 #   selected: false
 #   expanded: false
 #   critical: true
-- name: " KDE Plasma"
+- name: "  KDE Plasma"
   description: "Simple by default, powerful when needed."
   #description: "默认状态简洁易用，按需定制功能强大。"
   hidden: false
@@ -31,11 +31,11 @@
     - spectacle
     - xdg-desktop-portal
     - yakuake
-# 禁用了其他桌面环境，别TM给我把这些注释删了！
+# 禁用了其他桌面环境，别他妈给我把这些注释删了！
 # 等后续逐个适配后，就可以启用这些桌面环境了！
 # 已禁用桌面环境：GNOME、COSMIC、Cinnamon、Budgie、MATE、Xfce、LXQt、DDE
 # 不考虑适配：LXDE (因为太牢了)
-#- name: "󰊬 GNOME"
+#- name: "󰊬  GNOME"
 #  description: "Designed to put you in control and get things done."
 #  hidden: false
 #  selected: false
@@ -45,19 +45,19 @@
 #    - gdm
 #    - gnome
 #    - gnome-appfolders-manager
-#    - gnome-shell-extensions
+#    - gnome-shell-extension-appindicator
+#    - gnome-shell-extension-caffeine
+#    - gnome-shell-extension-dash-to-dock
+#    - gnome-shell-extension-desktop-icons-ng
 #    - gnome-shell-extension-kimpanel-git
 #    - gnome-shell-extension-vitals
-#    - gnome-shell-extension-caffeine
-#    - gnome-shell-extension-appindicator
-#    - gnome-shell-extension-desktop-icons-ng
-#    - gnome-shell-extension-dash-to-dock
+#    - gnome-shell-extensions
 #    - gnome-tweaks
 #    - gnome-themes-extra
 #    - qt5ct
 #    - qt6ct
 #    - sassc
-#- name: " COSMIC"
+#- name: "  COSMIC"
 #  description: "Linux desktop, which provides an environment that features advanced functionality and a responsive design."
 #  hidden: false
 #  selected: false
@@ -73,7 +73,7 @@
 #    - systemsettings
 #    - xdg-desktop-portal-cosmic
 #    - xorg-xwayland
-#- name: " Cinnamon"
+#- name: "  Cinnamon"
 #  description: "Linux desktop which provides advanced innovative features and a traditional user experience."
 #  hidden: false
 #  selected: false
@@ -91,7 +91,7 @@
 #    - sddm-kcm
 #    - systemsettings
 #    - system-config-printer
-#- name: " Budgie"
+#- name: "  Budgie"
 #  description: "An independent, familiar, and modern desktop."
 #  hidden: false
 #  selected: false
@@ -128,7 +128,7 @@
 #    - sushi
 #    - totem
 #    - xdg-user-dirs-gtk
-#- name: " MATE"
+#- name: "  MATE"
 #  description: "The continuation of GNOME 2"
 #  hidden: false
 #  selected: false
@@ -159,7 +159,7 @@
 #    - sddm-kcm
 #    - systemsettings
 #    - xdg-user-dirs-gtk
-#- name: " Xfce"
+#- name: "  Xfce"
 #  description: "A lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
 #  hidden: false
 #  selected: false
@@ -206,7 +206,7 @@
 #    - xfce4-weather-plugin
 #    - xfce4-whiskermenu-plugin
 #    - xfce4-xkb-plugin
-#- name: " LXQt"
+#- name: "  LXQt"
 #  description: "The Lightweight Qt Desktop Environment."
 #  hidden: false
 #  selected: false
@@ -240,7 +240,7 @@
 #    - xdg-utils
 #    - xscreensaver
 #    - xsettingsd
-#- name: " LXDE"
+#- name: "  LXDE"
   #description: "The Lightweight Desktop Environment."
   #hidden: false
   #selected: false
@@ -274,7 +274,7 @@
     #- sddm
     #- systemsettings
     #- xdg-user-dirs-gtk
-#- name: " DDE"
+#- name: "  DDE"
 #  description: ""
 #  hidden: false
 #  selected: false

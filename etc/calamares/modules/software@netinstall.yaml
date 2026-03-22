@@ -1,5 +1,5 @@
-#- name: "󰣇 CaelumOS Apps"
-- name: "󰣇 CaelumOS 软件"
+#- name: "󰣇  CaelumOS Apps"
+- name: "󰣇  CaelumOS 软件"
   description: ""
   hidden: false
   selected: true
@@ -12,8 +12,8 @@
     - darkly-bin
     - yaru-gtksourceview-theme
     - zorin-desktop-themes-git
-#- name: " Input Method"
-- name: " 输入法"
+#- name: "  Input Method"
+- name: "  输入法"
   description: "Fcitx 5"
   hidden: false
   selected: true
@@ -24,15 +24,15 @@
    - fcitx5-chinese-addons
    - fcitx5-pinyin-moegirl
    - fcitx5-pinyin-zhwiki
-#- name: "󰖟 Web Browser"
-- name: "󰖟 浏览器"
+#- name: "󰖟  Web Browser"
+- name: "󰖟  浏览器"
   description: ""
   hidden: false
   selected: true
   expanded: true
   critical: false
   subgroups:
-      - name: "󰈹 Firefox"
+      - name: "󰈹  Firefox"
         description: "Fast, Private & Safe Web Browser"
         hidden: false
         selected: true
@@ -40,36 +40,36 @@
         packages:
           - firefox
           - firefox-i18n-$LOCALE
-      - name: "󰊯 Chromium"
+      - name: "󰊯  Chromium"
         description: "A web browser built for speed, simplicity, and security"
         hidden: false
         selected: false
         critical: false
         packages:
           - chromium
-      - name: "󰇩 Microsoft Edge"
+      - name: "󰇩  Microsoft Edge"
         description: "A browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier"
         hidden: false
         selected: false
         critical: false
         packages:
           - microsoft-edge-stable-bin
-      - name: "󰀻 Brave"
+      - name: "󰀻  Brave"
         description: "Web browser that blocks ads and trackers by default"
         hidden: false
         selected: false
         critical: false
         packages:
           - brave-bin
-      - name: "󰀻 Falkon"
+      - name: "󰀻  Falkon"
         description: "Cross-platform QtWebEngine browser"
         hidden: false
         selected: false
         critical: false
         packages:
           - falkon
-#- name: " Video & Audio"
-- name: " 影音"
+#- name: "  Video & Audio"
+- name: "  影音"
   description: ""
   hidden: false
   selected: true
@@ -78,25 +78,25 @@
   packages:
    - mpv
    - vlc
-- name: " Shell"
+- name: "  Shell"
   description: ""
   hidden: false
   expanded: true
   critical: true
   subgroups:
-      - name: " Fish"
+      - name: "  Fish"
         description: ""
         selected: true
         packages:
            - fish
-      - name: " Zsh"
+      - name: "  Zsh"
         description: ""
         selected: true
         packages:
            - zsh
            - zsh-completions
-#- name: " Other Tools"
-- name: " 其他工具"
+#- name: "  Other Tools"
+- name: "  其他工具"
   description: ""
   hidden: false
   selected: true
