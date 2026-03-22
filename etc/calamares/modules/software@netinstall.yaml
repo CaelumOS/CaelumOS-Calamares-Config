@@ -10,8 +10,8 @@
     - caelumos-sound-theme
     - colloid-icon-theme-git
     - darkly-bin
-    - lingmo-gtk-themes
     - yaru-gtksourceview-theme
+    - zorin-desktop-themes-git
 #- name: " Input Method"
 - name: " 输入法"
   description: "Fcitx 5"
